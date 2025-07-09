@@ -19,7 +19,7 @@ app.get('/', (req, res) => {
 });
 
 app.get('/home', (req, res) => {
-  res.write("THis is the home page");
+  res.write("THis is the home page check");
   res.end();
 });
 
