@@ -14,9 +14,15 @@ app.get('/yaqub', (req, res) => {
 });
 
 app.get('/', (req, res) => {
-  res.write("Welcome! to the future");
+  res.write("Welcome to code pipeline");
   res.end();
 });
+
+app.get('/home', (req, res) => {
+  res.write("THis is the home page");
+  res.end();
+});
+
 app.listen(port)
 // app.listen(port, () => {
 //   console.log(`Server running at http://localhost:${port}`);
